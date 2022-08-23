@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="NextPlayGround.VSMSamples">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="TextDecorations" Value="None" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="TextDecorations" Value="Underline" />
+                                    <Setter Property="TextColor" Value="Red" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="Yellow" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="Visual" Value="Material"/>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor"
+                            Value="Transparent" />
+                                </VisualState.Setters>
+                            </VisualState>
+
+                            <VisualState x:Name="Clicked">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor"
+                            Value="Red" />
+                                </VisualState.Setters>
+                            </VisualState>
+
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Grid ColumnDefinitions="*,*">
+                <Label x:Name="lblOne" Text="Marvel Films">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" CommandParameter="one"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label Grid.Column="1" x:Name="lblTwo"  Text="DC Films" >
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" CommandParameter="two"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid>
+            <Grid>
+                <Button x:Name="btnDotNet" Text="dotnet" Clicked="btnDotNet_Clicked" />
+                <Button x:Name="btnGolang" Clicked="Button_Clicked" Grid.Column="1" Text="Golang" />
+            </Grid>
+            <Button Text="Submit" Visual="Default" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
