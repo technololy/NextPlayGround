@@ -13,6 +13,14 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2291" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
-    <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.1" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="marvin_homepage2.html" />
+    <None Remove="next_content_marvinhume2.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="marvin_homepage2.html" />
+    <EmbeddedResource Include="next_content_marvinhume2.html" />
   </ItemGroup>
 </Project>

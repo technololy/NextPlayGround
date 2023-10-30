@@ -46,25 +46,25 @@
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/bin/iPhoneSimulator/Debug/NextPlayGround.dll
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/bin/iPhoneSimulator/Debug/NextPlayGround.pdb
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/actool/_PartialAppManifest.items
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/actool/_BundleResourceWithLogicalName.items
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/actool/_ProcessedImageAssetsPath.items
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/ibtool/_BundleResourceWithLogicalName.items
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/ibtool/_ProcessedInterfaceDefinitionsPath.items
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/coremlc/_PartialAppManifest.items
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/coremlc/_BundleResourceWithLogicalName.items
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/coremlc/_ProcessedCoreMLModelsPath.items
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/_ProcessedBundleResourcesPath.items
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/_ProcessedContentPath.items
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/optimized/add_to_bag.png
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/optimized/add_to_bag@2x.png
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/optimized/add_to_bag@3x.png
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/optimized/image1.png
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/optimized/image2.png
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/optimized/image3.png
-/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.5/optimized/
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/NextPlayGround.iOS.csproj.AssemblyReference.cache
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/NextPlayGround.iOS.csproj.CoreCompileInputs.cache
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/NextPlayGround.iOS.csproj.CopyComplete
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/NextPlayGround.iOS.exe
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/NextPlayGround.iOS.pdb
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/actool/_PartialAppManifest.items
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/actool/_BundleResourceWithLogicalName.items
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/actool/_ProcessedImageAssetsPath.items
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/ibtool/_BundleResourceWithLogicalName.items
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/coremlc/_PartialAppManifest.items
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/coremlc/_BundleResourceWithLogicalName.items
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/_ProcessedBundleResourcesPath.items
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/_ProcessedContentPath.items
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/optimized/add_to_bag.png
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/optimized/add_to_bag@2x.png
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/optimized/add_to_bag@3x.png
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/optimized/image1.png
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/optimized/image2.png
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/optimized/image3.png
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.5/optimized/

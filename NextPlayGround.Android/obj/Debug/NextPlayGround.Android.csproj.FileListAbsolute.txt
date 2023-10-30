@@ -597,3 +597,4 @@
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.Android/obj/Debug/android/src/crc6458d38fa096c758e0/RadioButtonPickerRenderer.java

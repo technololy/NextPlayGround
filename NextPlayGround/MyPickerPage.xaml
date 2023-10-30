@@ -1,9 +1,52 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:nextplayground="clr-namespace:NextPlayGround"
     x:Class="NextPlayGround.MyPickerPage">
     <ContentPage.Content>
-        
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+            <Label Text="Tap me to open a display alert" TextDecorations="Underline" xct:TouchEffect.Command="{Binding DoLabelCommand}"  />
+            <nextplayground:CustomPicker Title="Custom lolade picker" >
+                <nextplayground:CustomPicker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Baboon</x:String>
+                        <x:String>Capuchin Monkey</x:String>
+                        <x:String>Blue Monkey</x:String>
+                        <x:String>Squirrel Monkey</x:String>
+                        <x:String>Golden Lion Tamarin</x:String>
+                        <x:String>Howler Monkey</x:String>
+                        <x:String>Japanese Macaque</x:String>
+                    </x:Array>
+                </nextplayground:CustomPicker.ItemsSource>
+                <nextplayground:CustomPicker.Behaviors>
+                    <xct:EventToCommandBehavior
+                    EventName="SelectedIndexChanged"
+                    Command="{Binding DoPickerCommand}" />
+                </nextplayground:CustomPicker.Behaviors>
+            </nextplayground:CustomPicker>
+
+            <Picker Title="Normal picker" >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Baboon</x:String>
+                        <x:String>Capuchin Monkey</x:String>
+                        <x:String>Blue Monkey</x:String>
+                        <x:String>Squirrel Monkey</x:String>
+                        <x:String>Golden Lion Tamarin</x:String>
+                        <x:String>Howler Monkey</x:String>
+                        <x:String>Japanese Macaque</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+                <Picker.Behaviors>
+                    <xct:EventToCommandBehavior
+                    EventName="SelectedIndexChanged"
+                    Command="{Binding DoPickerCommand}" />
+                </Picker.Behaviors>
+            </Picker>
+
+
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

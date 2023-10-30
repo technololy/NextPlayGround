@@ -14,12 +14,13 @@
         "outputPath": "/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ooyebanji/.config/NuGet/NuGet.Config"
+          "/Users/ooyebanji/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,7 +47,7 @@
             },
             "Xamarin.CommunityToolkit": {
               "target": "Package",
-              "version": "[2.0.1, )"
+              "version": "[2.0.4, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -68,7 +69,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.400-preview.22330.6/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
         }
       }
     }

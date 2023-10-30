@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage
+    BackgroundColor="White"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="NextPlayGround.Carousel">
@@ -8,33 +9,34 @@
             <Style x:Key="PdpIndicatorViewTemplateStyle" TargetType="Frame">
                 <Setter Property="Margin" Value="5"/>
                 <Setter Property="HasShadow" Value="False" />
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="CornerRadius" Value="10"/>
                 <Setter Property="BorderColor" Value="Black" />
-                <Setter Property="Padding" Value="5" />
-                <Setter Property="BackgroundColor" Value="Orange"/>
-                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
                 <Setter Property="VerticalOptions" Value="CenterAndExpand" />
-                <Setter Property="WidthRequest" Value="15" />
-                <Setter Property="HeightRequest" Value="15" />
-                <Setter Property="CornerRadius" Value="12" />
+
             </Style>
             <Style x:Key="PdpIndicatorViewParentElementStyle" TargetType="Frame">
-                <Setter Property="BackgroundColor" Value="Violet"/>
                 <Setter Property="HasShadow" Value="False" />
                 <Setter Property="IsClippedToBounds" Value="True" />
-                <Setter Property="Padding" Value="10" />
-                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
-                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
-                <Setter Property="CornerRadius" Value="6" />
-                <Setter Property="Margin" Value="0,0,0,10" />
-                <Setter Property="Scale" Value="0.6"/>
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="HeightRequest" Value="40"/>
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="BackgroundColor" Value="#b3ededed"/>
             </Style>
             <Style x:Key="PdpIndicatorViewStyle" TargetType="IndicatorView">
-                <Setter Property="IndicatorColor" Value="Black"/>
-                <Setter Property="SelectedIndicatorColor" Value="Red" />
-                <Setter Property="BackgroundColor" Value="Cyan" />
-                <Setter Property="IndicatorSize" Value="10" />
+                <Setter Property="IndicatorColor" Value="White"/>
+                <Setter Property="SelectedIndicatorColor" Value="Black" />
+                <Setter Property="IndicatorSize" Value="11" />
+                <Setter Property="Margin" Value="0"/>
+                <Setter Property="Padding" Value="10"/>
                 <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
-                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="MaximumVisible" Value="11"/>
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
@@ -53,16 +55,12 @@
                     </DataTemplate>
                 </CarouselView.ItemTemplate>
             </CarouselView>
-            <Frame Style="{StaticResource PdpIndicatorViewParentElementStyle}" >
-                <IndicatorView x:Name="IndicatorView"
+<Frame Style="{StaticResource PdpIndicatorViewParentElementStyle}" >
+            <IndicatorView  x:Name="IndicatorView" 
                                Style="{StaticResource PdpIndicatorViewStyle}">
-                    <IndicatorView.IndicatorTemplate>
-                        <DataTemplate>
-                            <Frame Style="{StaticResource PdpIndicatorViewTemplateStyle}"/>
-                        </DataTemplate>
-                    </IndicatorView.IndicatorTemplate>
-                </IndicatorView>
-            </Frame>
+
+            </IndicatorView>
+</Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

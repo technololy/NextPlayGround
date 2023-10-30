@@ -8,6 +8,11 @@
             <Button Text="Go to carousel" Clicked="Button_Clicked" />
             <Button Text="Go to Animation" Clicked="Button2_Clicked" />
             <Button Text="Go to VSM" Clicked="VSM_Clicked" />
+            <Button Text="Go to picker" Clicked="Picker_Clicked" />
+            <Button Text="Go to webview home" Clicked="WebView1_Clicked" />
+            <Button Text="Go to webview inner content" Clicked="WebView2_Clicked" />
+            <WebView x:Name="Web" VerticalOptions="FillAndExpand" />                     
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

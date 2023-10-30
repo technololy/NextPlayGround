@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lI3yFNw7FzVzqX45qpyNfAGMfMn8d7RT7rlB3hEb+rY4vrIY7tzhGcxS+L8GA6mXLmkR0PdfO+W90chzs7Sy9g==",
+  "dgSpecHash": "JNZuFhxq46nezqGEpcTg8WGve0A50xJqUq+cACjOLkCcHwdiW3bU6nOVXE357PESRz4/TpYsDCGoyPxyJTyt7A==",
   "success": true,
   "projectFilePath": "/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.Android/NextPlayGround.Android.csproj",
   "expectedPackageFiles": [
@@ -49,13 +49,23 @@
     "/Users/ooyebanji/.nuget/packages/xamarin.androidx.versionedparcelable/1.1.1.6/xamarin.androidx.versionedparcelable.1.1.1.6.nupkg.sha512",
     "/Users/ooyebanji/.nuget/packages/xamarin.androidx.viewpager/1.0.0.6/xamarin.androidx.viewpager.1.0.0.6.nupkg.sha512",
     "/Users/ooyebanji/.nuget/packages/xamarin.androidx.viewpager2/1.0.0.8/xamarin.androidx.viewpager2.1.0.0.8.nupkg.sha512",
-    "/Users/ooyebanji/.nuget/packages/xamarin.communitytoolkit/2.0.1/xamarin.communitytoolkit.2.0.1.nupkg.sha512",
+    "/Users/ooyebanji/.nuget/packages/xamarin.communitytoolkit/2.0.4/xamarin.communitytoolkit.2.0.4.nupkg.sha512",
     "/Users/ooyebanji/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
     "/Users/ooyebanji/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512",
     "/Users/ooyebanji/.nuget/packages/xamarin.google.android.material/1.2.1.1/xamarin.google.android.material.1.2.1.1.nupkg.sha512",
     "/Users/ooyebanji/.nuget/packages/xamarin.google.guava.listenablefuture/1.0.0.2/xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2291 to 5.0.0.2012. Reference the package directly from the project to select a different version. \n NextPlayGround.Android -> Xamarin.CommunityToolkit 2.0.4 -> Xamarin.Forms (>= 5.0.0.2291) \n NextPlayGround.Android -> Xamarin.Forms (>= 5.0.0.2012)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v11.0"
+      ]
+    },
     {
       "code": "NU1605",
       "level": "Warning",

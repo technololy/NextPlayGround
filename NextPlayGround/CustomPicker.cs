@@ -1,7 +1,9 @@
 ﻿using System;
+using Xamarin.Forms;
+
 namespace NextPlayGround
 {
-    public class CustomPicker
+    public class CustomPicker : Picker
     {
         public CustomPicker()
         {

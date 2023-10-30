@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="NextPlayGround.iOS.app/NextPlayGround.iOS">
+      <BCSymbolMapName>NextPlayGround.iOS.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>NextPlayGround.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.5/mtouch-symbols.list</SymbolFile>
+      <DSymName>NextPlayGround.iOS.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround.iOS</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

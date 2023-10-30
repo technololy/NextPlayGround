@@ -17,6 +17,13 @@ namespace NextPlayGround
                 new CarouselData{Name="2",Image="image2",Color="Green"},
                 new CarouselData{Name="3",Image="image3",Color="Yellow"},
             };
+            CarouselDataObject.AddRange(CarouselDataObject);
+            CarouselDataObject.AddRange(CarouselDataObject);
+            CarouselDataObject.AddRange(CarouselDataObject);
+            CarouselDataObject.AddRange(CarouselDataObject);
+            CarouselDataObject.AddRange(CarouselDataObject);
+            CarouselDataObject.AddRange(CarouselDataObject);
+            CarouselDataObject.AddRange(CarouselDataObject);
             BindingContext = this;
 
         }

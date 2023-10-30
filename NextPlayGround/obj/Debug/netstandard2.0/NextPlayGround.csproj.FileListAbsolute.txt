@@ -16,3 +16,5 @@
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround/obj/Debug/netstandard2.0/NextPlayGround.pdb
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround/obj/Debug/netstandard2.0/NextPlayGround.csproj.AssemblyReference.cache
 /Users/ooyebanji/Projects/NextPlayGround/NextPlayGround/obj/Debug/netstandard2.0/VSMSamples.xaml.g.cs
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround/obj/Debug/netstandard2.0/MyPickerPage.xaml.g.cs
+/Users/ooyebanji/Projects/NextPlayGround/NextPlayGround/obj/Debug/netstandard2.0/WebViewPage.xaml.g.cs

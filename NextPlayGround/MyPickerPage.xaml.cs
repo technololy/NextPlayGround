@@ -10,6 +10,7 @@ namespace NextPlayGround
         public MyPickerPage()
         {
             InitializeComponent();
+            BindingContext = new MyPickerPageViewModel();
         }
     }
 }
