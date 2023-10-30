@@ -1,0 +1,781 @@
+<html class="js" lang="en-GB" dir="ltr"
+    data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/2781436&quot;}}]">
+
+<head
+    data-cm-metadata="[{&quot;cm_studioPreviewCss&quot;:[&quot;/nxtcms/blueprint/servlet/resource/themes/next/css/preview-1544-177.css&quot;]}]">
+    <meta charset="UTF-8">
+    <title data-cm-metadata="[{&quot;_&quot;:&quot;properties.htmlTitle&quot;}]">Marvin Humes </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <link rel="canonical"
+        href="&lt;!--CM{&quot;externalSeoSegment&quot;:&quot;men--marvin-humes&quot;,&quot;renderType&quot;:&quot;url&quot;,&quot;pageId&quot;:&quot;men--marvin-humes&quot;,&quot;objectType&quot;:&quot;page&quot;}CM--&gt;">
+    <meta name="last-changed-timestamp" content="1666108867000">
+    <script>document.documentElement.className = document.documentElement.className.replace(/no-js/g, 'js');</script>
+    <script>
+        /*! lazysizes - v4.1.4 */
+        !function (a, b) { var c = b(a, a.document); a.lazySizes = c, "object" == typeof module && module.exports && (module.exports = c) }(window, function (a, b) { "use strict"; if (b.getElementsByClassName) { var c, d, e = b.documentElement, f = a.Date, g = a.HTMLPictureElement, h = "addEventListener", i = "getAttribute", j = a[h], k = a.setTimeout, l = a.requestAnimationFrame || k, m = a.requestIdleCallback, n = /^picture$/i, o = ["load", "error", "lazyincluded", "_lazyloaded"], p = {}, q = Array.prototype.forEach, r = function (a, b) { return p[b] || (p[b] = new RegExp("(\\s|^)" + b + "(\\s|$)")), p[b].test(a[i]("class") || "") && p[b] }, s = function (a, b) { r(a, b) || a.setAttribute("class", (a[i]("class") || "").trim() + " " + b) }, t = function (a, b) { var c; (c = r(a, b)) && a.setAttribute("class", (a[i]("class") || "").replace(c, " ")) }, u = function (a, b, c) { var d = c ? h : "removeEventListener"; c && u(a, b), o.forEach(function (c) { a[d](c, b) }) }, v = function (a, d, e, f, g) { var h = b.createEvent("Event"); return e || (e = {}), e.instance = c, h.initEvent(d, !f, !g), h.detail = e, a.dispatchEvent(h), h }, w = function (b, c) { var e; !g && (e = a.picturefill || d.pf) ? (c && c.src && !b[i]("srcset") && b.setAttribute("srcset", c.src), e({ reevaluate: !0, elements: [b] })) : c && c.src && (b.src = c.src) }, x = function (a, b) { return (getComputedStyle(a, null) || {})[b] }, y = function (a, b, c) { for (c = c || a.offsetWidth; c < d.minSize && b && !a._lazysizesWidth;)c = b.offsetWidth, b = b.parentNode; return c }, z = function () { var a, c, d = [], e = [], f = d, g = function () { var b = f; for (f = d.length ? e : d, a = !0, c = !1; b.length;)b.shift()(); a = !1 }, h = function (d, e) { a && !e ? d.apply(this, arguments) : (f.push(d), c || (c = !0, (b.hidden ? k : l)(g))) }; return h._lsFlush = g, h }(), A = function (a, b) { return b ? function () { z(a) } : function () { var b = this, c = arguments; z(function () { a.apply(b, c) }) } }, B = function (a) { var b, c = 0, e = d.throttleDelay, g = d.ricTimeout, h = function () { b = !1, c = f.now(), a() }, i = m && g > 49 ? function () { m(h, { timeout: g }), g !== d.ricTimeout && (g = d.ricTimeout) } : A(function () { k(h) }, !0); return function (a) { var d; (a = a === !0) && (g = 33), b || (b = !0, d = e - (f.now() - c), 0 > d && (d = 0), a || 9 > d ? i() : k(i, d)) } }, C = function (a) { var b, c, d = 99, e = function () { b = null, a() }, g = function () { var a = f.now() - c; d > a ? k(g, d - a) : (m || e)(e) }; return function () { c = f.now(), b || (b = k(g, d)) } }; !function () { var b, c = { lazyClass: "lazyload", loadedClass: "lazyloaded", loadingClass: "lazyloading", preloadClass: "lazypreload", errorClass: "lazyerror", autosizesClass: "lazyautosizes", srcAttr: "data-src", srcsetAttr: "data-srcset", sizesAttr: "data-sizes", minSize: 40, customMedia: {}, init: !0, expFactor: 1.5, hFac: .8, loadMode: 2, loadHidden: !0, ricTimeout: 0, throttleDelay: 125 }; d = a.lazySizesConfig || a.lazysizesConfig || {}; for (b in c) b in d || (d[b] = c[b]); a.lazySizesConfig = d, k(function () { d.init && F() }) }(); var D = function () { var g, l, m, o, p, y, D, F, G, H, I, J, K, L, M = /^img$/i, N = /^iframe$/i, O = "onscroll" in a && !/(gle|ing)bot/.test(navigator.userAgent), P = 0, Q = 0, R = 0, S = -1, T = function (a) { R--, a && a.target && u(a.target, T), (!a || 0 > R || !a.target) && (R = 0) }, U = function (a, c) { var d, f = a, g = "hidden" == x(b.body, "visibility") || "hidden" != x(a.parentNode, "visibility") && "hidden" != x(a, "visibility"); for (F -= c, I += c, G -= c, H += c; g && (f = f.offsetParent) && f != b.body && f != e;)g = (x(f, "opacity") || 1) > 0, g && "visible" != x(f, "overflow") && (d = f.getBoundingClientRect(), g = H > d.left && G < d.right && I > d.top - 1 && F < d.bottom + 1); return g }, V = function () { var a, f, h, j, k, m, n, p, q, r = c.elements; if ((o = d.loadMode) && 8 > R && (a = r.length)) { f = 0, S++, null == K && ("expand" in d || (d.expand = e.clientHeight > 500 && e.clientWidth > 500 ? 500 : 370), J = d.expand, K = J * d.expFactor), K > Q && 1 > R && S > 2 && o > 2 && !b.hidden ? (Q = K, S = 0) : Q = o > 1 && S > 1 && 6 > R ? J : P; for (; a > f; f++)if (r[f] && !r[f]._lazyRace) if (O) if ((p = r[f][i]("data-expand")) && (m = 1 * p) || (m = Q), q !== m && (y = innerWidth + m * L, D = innerHeight + m, n = -1 * m, q = m), h = r[f].getBoundingClientRect(), (I = h.bottom) >= n && (F = h.top) <= D && (H = h.right) >= n * L && (G = h.left) <= y && (I || H || G || F) && (d.loadHidden || "hidden" != x(r[f], "visibility")) && (l && 3 > R && !p && (3 > o || 4 > S) || U(r[f], m))) { if (ba(r[f]), k = !0, R > 9) break } else !k && l && !j && 4 > R && 4 > S && o > 2 && (g[0] || d.preloadAfterLoad) && (g[0] || !p && (I || H || G || F || "auto" != r[f][i](d.sizesAttr))) && (j = g[0] || r[f]); else ba(r[f]); j && !k && ba(j) } }, W = B(V), X = function (a) { s(a.target, d.loadedClass), t(a.target, d.loadingClass), u(a.target, Z), v(a.target, "lazyloaded") }, Y = A(X), Z = function (a) { Y({ target: a.target }) }, $ = function (a, b) { try { a.contentWindow.location.replace(b) } catch (c) { a.src = b } }, _ = function (a) { var b, c = a[i](d.srcsetAttr); (b = d.customMedia[a[i]("data-media") || a[i]("media")]) && a.setAttribute("media", b), c && a.setAttribute("srcset", c) }, aa = A(function (a, b, c, e, f) { var g, h, j, l, o, p; (o = v(a, "lazybeforeunveil", b)).defaultPrevented || (e && (c ? s(a, d.autosizesClass) : a.setAttribute("sizes", e)), h = a[i](d.srcsetAttr), g = a[i](d.srcAttr), f && (j = a.parentNode, l = j && n.test(j.nodeName || "")), p = b.firesLoad || "src" in a && (h || g || l), o = { target: a }, p && (u(a, T, !0), clearTimeout(m), m = k(T, 2500), s(a, d.loadingClass), u(a, Z, !0)), l && q.call(j.getElementsByTagName("source"), _), h ? a.setAttribute("srcset", h) : g && !l && (N.test(a.nodeName) ? $(a, g) : a.src = g), f && (h || l) && w(a, { src: g })), a._lazyRace && delete a._lazyRace, t(a, d.lazyClass), z(function () { (!p || a.complete && a.naturalWidth > 1) && (p ? T(o) : R--, X(o)) }, !0) }), ba = function (a) { var b, c = M.test(a.nodeName), e = c && (a[i](d.sizesAttr) || a[i]("sizes")), f = "auto" == e; (!f && l || !c || !a[i]("src") && !a.srcset || a.complete || r(a, d.errorClass) || !r(a, d.lazyClass)) && (b = v(a, "lazyunveilread").detail, f && E.updateElem(a, !0, a.offsetWidth), a._lazyRace = !0, R++, aa(a, b, f, e, c)) }, ca = function () { if (!l) { if (f.now() - p < 999) return void k(ca, 999); var a = C(function () { d.loadMode = 3, W() }); l = !0, d.loadMode = 3, W(), j("scroll", function () { 3 == d.loadMode && (d.loadMode = 2), a() }, !0) } }; return { _: function () { p = f.now(), c.elements = b.getElementsByClassName(d.lazyClass), g = b.getElementsByClassName(d.lazyClass + " " + d.preloadClass), L = d.hFac, j("scroll", W, !0), j("resize", W, !0), a.MutationObserver ? new MutationObserver(W).observe(e, { childList: !0, subtree: !0, attributes: !0 }) : (e[h]("DOMNodeInserted", W, !0), e[h]("DOMAttrModified", W, !0), setInterval(W, 999)), j("hashchange", W, !0), ["focus", "mouseover", "click", "load", "transitionend", "animationend", "webkitAnimationEnd"].forEach(function (a) { b[h](a, W, !0) }), /d$|^c/.test(b.readyState) ? ca() : (j("load", ca), b[h]("DOMContentLoaded", W), k(ca, 2e4)), c.elements.length ? (V(), z._lsFlush()) : W() }, checkElems: W, unveil: ba } }(), E = function () { var a, c = A(function (a, b, c, d) { var e, f, g; if (a._lazysizesWidth = d, d += "px", a.setAttribute("sizes", d), n.test(b.nodeName || "")) for (e = b.getElementsByTagName("source"), f = 0, g = e.length; g > f; f++)e[f].setAttribute("sizes", d); c.detail.dataAttr || w(a, c.detail) }), e = function (a, b, d) { var e, f = a.parentNode; f && (d = y(a, f, d), e = v(a, "lazybeforesizes", { width: d, dataAttr: !!b }), e.defaultPrevented || (d = e.detail.width, d && d !== a._lazysizesWidth && c(a, f, e, d))) }, f = function () { var b, c = a.length; if (c) for (b = 0; c > b; b++)e(a[b]) }, g = C(f); return { _: function () { a = b.getElementsByClassName(d.autosizesClass), j("resize", g) }, checkElems: g, updateElem: e } }(), F = function () { F.i || (F.i = !0, E._(), D._()) }; return c = { cfg: d, autoSizer: E, loader: D, init: F, uP: w, aC: s, rC: t, hC: r, fire: v, gW: y, rAF: z } } });
+    </script>
+    <link href="/nxtcms/blueprint/servlet/resource/themes/next/css/next-1542-223.css" rel="stylesheet"
+        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/1542&quot;}}]">
+    <link href="/nxtcms/blueprint/servlet/resource/themes/next/css/fonts_preview-3888870-4.css" rel="stylesheet"
+        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/3888870&quot;}}]">
+    <script src="/nxtcms/blueprint/servlet/resource/themes/next/js/commons-4340218-22.js"
+        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4340218&quot;}}]"></script>
+    <script src="/nxtcms/blueprint/servlet/resource/themes/next/js/next-4340220-33.js"
+        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4340220&quot;}}]"></script>
+    <link rel="stylesheet" href="/nxtcms/blueprint/com/coremedia/cae/css/coremedia.preview.blueprint.css">
+    <script src="/nxtcms/blueprint/com/coremedia/cae/js/coremedia.preview.js"></script>
+    <script src="/nxtcms/blueprint/com/coremedia/cae/vendor/jquery-3.5.0.min.js"></script>
+    <script src="/nxtcms/blueprint/com/coremedia/cae/js/coremedia.preview.$.js"></script>
+    <script src="/nxtcms/blueprint/com/coremedia/cae/js/coremedia.preview.blueprint.js"></script>
+    <style type="text/css">
+        .cm-placement-highlighting-blue,
+        .cm-placement-highlighting-green,
+        .cm-placement-highlighting-orange {
+            position: relative;
+        }
+
+        /* Available Empty Placement: */
+        .cm-placement-highlighting-green {
+            background: #E8F8AF;
+            border: 2px solid #2FAC66;
+            margin: 3px 0;
+        }
+
+        /* Unavailable Placement: */
+        .cm-placement-highlighting-orange {
+            background: #FFFCCC;
+            border: 2px solid #ED8703;
+            margin: 3px 0;
+        }
+
+        /* Available Placement: */
+        .cm-placement-highlighting-blue .cm-placement-border-left,
+        .cm-placement-highlighting-blue .cm-placement-border-right,
+        .cm-placement-highlighting-blue .cm-placement-border-top,
+        .cm-placement-highlighting-blue .cm-placement-border-bottom {
+            background-color: #006CAE;
+        }
+
+        .cm-placement-border-left,
+        .cm-placement-border-right,
+        .cm-placement-border-top,
+        .cm-placement-border-bottom {
+            position: absolute;
+            z-index: 10;
+            margin-bottom: 0;
+            margin-top: 0 !important;
+        }
+
+        .cm-placement-border-left,
+        .cm-placement-border-right {
+            top: 0;
+            height: 100%;
+        }
+
+        .cm-placement-border-left {
+            left: 0;
+            width: 2px;
+        }
+
+        .cm-placement-border-right {
+            right: 0;
+            width: 2px;
+        }
+
+        .cm-placement-border-top,
+        .cm-placement-border-bottom {
+            left: 0;
+            width: 100%;
+            height: 2px;
+        }
+
+        .cm-placement-border-top {
+            top: 0;
+        }
+
+        .cm-placement-border-bottom {
+            bottom: 0;
+        }
+
+        .cm-placement-highlighting-blue-overlay,
+        .cm-placement-highlighting-green-overlay,
+        .cm-placement-highlighting-orange-overlay {
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            width: initial;
+            padding: 0 3px;
+            margin-top: 0 !important;
+            z-index: 10;
+            font-weight: bold;
+        }
+
+        .cm-placement-highlighting-blue-overlay {
+            top: 1px;
+            left: 1px;
+        }
+
+        .cm-placement-highlighting-green-overlay {
+            background: #E8F8AF;
+            border: 1px solid #2FAC66;
+        }
+
+        .cm-placement-highlighting-orange-overlay {
+            background: #FFFCCC;
+            border: 1px solid #ED8703;
+        }
+
+        .cm-placement-highlighting-blue-overlay {
+            background: #D6F0FF;
+            border: 1px solid #006CAE;
+        }
+
+        .cm-placement-highlighting-blue-overlay,
+        .cm-placement-highlighting-green-overlay,
+        .cm-placement-highlighting-orange-overlay,
+        .cm-placement-highlighting-green,
+        .cm-placement-highlighting-orange {
+            font-family: "Segoe UI", "Trebuchet MS", "Lucida Grande", Helvetica, sans-serif;
+            font-size: 12px;
+            line-height: 1.4;
+            text-align: left;
+            color: #4F4F4F;
+        }
+
+        .cm-placement-highlighting-green-text,
+        .cm-placement-highlighting-orange-text {
+            margin-top: 0 !important;
+        }
+    </style>
+    <!-- BEGIN ViewHookEvent{, bean=com.coremedia.blueprint.cae.contentbeans.PageImpl$$[navigation=com.coremedia.livecontext.contentbeans.CMExternalPageImpl[id=2781436], content=com.coremedia.livecontext.contentbeans.CMExternalPageImpl[id=2781436]], id=head, parameters={}} null com.coremedia.objectserver.view.events.ViewHookEventView@615dbdd0 -->
+    <!-- END ViewHookEvent{, bean=com.coremedia.blueprint.cae.contentbeans.PageImpl$$[navigation=com.coremedia.livecontext.contentbeans.CMExternalPageImpl[id=2781436], content=com.coremedia.livecontext.contentbeans.CMExternalPageImpl[id=2781436]], id=head, parameters={}} null com.coremedia.objectserver.view.events.ViewHookEventView@615dbdd0 took 0 ms -->
+    <style>
+        html,
+        body {
+            -webkit-overflow-scrolling: touch;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>
+    <style>
+        .cm_bootstrap .lSSlideOuter .lSPager.lSpg>li.active:hover a {
+            background-color: #548074;
+            border: 1px solid #548074;
+        }
+
+        .cm_bootstrap .lSSlideOuter .lSPager.lSpg>li.active a {
+            background-color: #548074;
+            border: 1px solid #548074;
+        }
+
+        .cm_bootstrap .hp-btn-link-forwardslash {
+            color: #548074;
+        }
+
+        .cm_bootstrap .hp-tile-module-labelmix-text-and-images__header {
+            color: #548074;
+        }
+    </style>
+</head>
+
+<body id="top" style="-webkit-touch-callout: none;-webkit-tap-highlight-color: rgba(0,0,0,0);" class="cat-landing-page"
+    data-cm-metadata="[{&quot;cm_responsiveDevices&quot;:{&quot;mobile_portrait&quot;:{&quot;width&quot;:375,&quot;height&quot;:667,&quot;order&quot;:1,&quot;isDefault&quot;:true},&quot;mobile_landscape&quot;:{&quot;width&quot;:667,&quot;height&quot;:375,&quot;order&quot;:2},&quot;tablet_portrait&quot;:{&quot;width&quot;:768,&quot;height&quot;:1024,&quot;order&quot;:3},&quot;tablet_landscape&quot;:{&quot;width&quot;:1024,&quot;height&quot;:768,&quot;order&quot;:5}},&quot;cm_preferredWidth&quot;:1280}]">
+
+
+
+
+
+
+    <div class="cm_bootstrap_data" data-background-image="" data-background-color="#F8F9F6"></div>
+
+    <div class="cm_bootstrap">
+
+
+        <!-- BEGIN com.coremedia.blueprint.cae.layout.ContentBeanBackedPageGridPlacement@b360e807 null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/PageGridPlacement.ftl] -->
+        <div id="cm-placement-topBanner" class="cm-placement-topBanner width100"
+            data-cm-metadata="[{&quot;_&quot;:&quot;properties.placement-topBanner&quot;}]">
+            <!-- BEGIN com.coremedia.blueprint.cae.layout.ContentBeanBackedPageGridPlacement@b360e807 asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=3913954] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMHTML.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=3913954] null FreemarkerView[template=/WEB&#8211;INF/templates/common/com.coremedia.blueprint.common.contentbeans/CMHTML.ftl] -->
+            <span data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/3913954&quot;}}]">
+                <style>
+                    .cm_bootstrap span.font--kepler-std-regular {
+                        font-family: 'Playfair Display', "Times New Roman", serif !important;
+                        font-weight: normal;
+                    }
+                </style>
+            </span>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=3913954] null FreemarkerView[template=/WEB&#8211;INF/templates/common/com.coremedia.blueprint.common.contentbeans/CMHTML.ftl] took 0 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=3913954] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMHTML.asTeaser.ftl] took 0 ms -->
+            <!-- END com.coremedia.blueprint.cae.layout.ContentBeanBackedPageGridPlacement@b360e807 asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement.ftl] took 0 ms -->
+        </div>
+        <!-- END com.coremedia.blueprint.cae.layout.ContentBeanBackedPageGridPlacement@b360e807 null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/PageGridPlacement.ftl] took 1 ms -->
+        <!-- BEGIN com.coremedia.blueprint.cae.layout.ContentBeanBackedPageGridPlacement@b360ebc8 null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/PageGridPlacement.ftl] -->
+        <div id="cm-placement-hero" class="cm-placement-hero width100"
+            data-cm-metadata="[{&quot;_&quot;:&quot;properties.placement-hero&quot;}]">
+            <!-- BEGIN com.coremedia.blueprint.cae.layout.ContentBeanBackedPageGridPlacement@b360ebc8 asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=4397410] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMHTML.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=4397410] null FreemarkerView[template=/WEB&#8211;INF/templates/common/com.coremedia.blueprint.common.contentbeans/CMHTML.ftl] -->
+            <span data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397410&quot;}}]">
+
+                <style>
+                    html,
+                    body {
+                        background-color: #F0F0F0 !important;
+                    }
+                </style>
+            </span>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=4397410] null FreemarkerView[template=/WEB&#8211;INF/templates/common/com.coremedia.blueprint.common.contentbeans/CMHTML.ftl] took 0 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=4397410] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMHTML.asTeaser.ftl] took 0 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397322] asTeaser[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397322] asPlacement[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[carousel].ftl] -->
+            <div class="row hp-slideshow-wrapper hp-slideshow-wrapper-mobile cm-container cm-container--carousel "
+                data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397322&quot;}},{&quot;_&quot;:&quot;properties.items&quot;}]">
+                <div class="" style=" ">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397322] asCarousel[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asCarousel.ftl] -->
+                    <div id="carousel2" class="cm-carousel carousel slide" data-ride="carousel"
+                        data-aspect-ratio-width="1" data-aspect-ratio-height="1"
+                        data-cm-carousel="{&quot;interval&quot;:&quot;5000&quot;}"
+                        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397322&quot;}},{&quot;_&quot;:&quot;properties.items&quot;}]">
+                        <div class="cm-carousel-inner carousel-inner" role="listbox"
+                            data-cm-metadata="[{&quot;_&quot;:&quot;properties.items&quot;}]">
+                            <div class="item active" id="carousel2_slide_0">
+                                <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMVideoImpl[id=4397320] hero FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMVideo.hero.ftl] -->
+                                <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMVideoImpl[id=4397320] asHTML5MobileTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMVideo.asHTML5MobileTeaser.ftl] -->
+                                <div class="video-wrapper">
+                                    <video autoplay="" controls="" loop="" muted="" playsinline="" name="media"
+                                        poster="/nxtcms/blueprint/servlet/resource/blob/4397384/160291105b9ee223baceabd1fe8c2ad5/screenshot-2022-03-23-at-09-31-49-data.png"
+                                        class="" style="">
+                                        <source
+                                            src="https://xcdn.next.co.uk/COMMON/Items/Default/Default/Videos/G64V1OVERVIEW16x9SARAHEDITFINAL.mp4"
+                                            type="video/mp4">
+                                    </video>
+                                </div>
+                                <style>
+                                    .video-wrapper {
+                                        position: relative;
+                                    }
+
+                                    .video-wrapper>video {
+                                        width: 100%;
+                                        vertical-align: middle;
+                                    }
+                                </style>
+                                <!-- END com.coremedia.blueprint.cae.contentbeans.CMVideoImpl[id=4397320] asHTML5MobileTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMVideo.asHTML5MobileTeaser.ftl] took 1 ms -->
+                                <!-- END com.coremedia.blueprint.cae.contentbeans.CMVideoImpl[id=4397320] hero FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMVideo.hero.ftl] took 2 ms -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397322] asCarousel[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asCarousel.ftl] took 3 ms -->
+                    <div class="hp-tablet-buttonlist-wrapper">
+                        <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397322] asButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asButtonList.ftl] -->
+                        <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397322] asButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asButtonList.ftl] took 0 ms -->
+                    </div>
+                    <div class="hp-mobile-buttonlist-wrapper">
+                        <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397322] asMobileButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asMobileButtonList.ftl] -->
+                        <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397322] asMobileButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asMobileButtonList.ftl] took 0 ms -->
+                    </div>
+                </div>
+            </div>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397322] asPlacement[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[carousel].ftl] took 6 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397322] asTeaser[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 6 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=4397408] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMHTML.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=4397408] null FreemarkerView[template=/WEB&#8211;INF/templates/common/com.coremedia.blueprint.common.contentbeans/CMHTML.ftl] -->
+            <span data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397408&quot;}}]">
+                <div style="width:100%; height:40px;&nbsp;colour:#ffffff;"></div>
+            </span>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=4397408] null FreemarkerView[template=/WEB&#8211;INF/templates/common/com.coremedia.blueprint.common.contentbeans/CMHTML.ftl] took 0 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMHTMLImpl[id=4397408] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMHTML.asTeaser.ftl] took 0 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397340] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397340] asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asPlacement.ftl] -->
+            <div class="">
+                <div class="">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397338] asTeaser[text&#8211;banner] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTeaser[text&#8211;banner].ftl] -->
+                    <div id="module1-2hlpc8zz1ri4b9dd3g5ccuxfn"
+                        class="row text-banner text-banner--advanced-layout row-margin-20"
+                        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397338&quot;}}]">
+                        <div class="col-sm-12 text-banner__content">
+                            <div class="text-banner__text-box msite-text-on-image">
+                                <div class="cm-richtext"
+                                    data-cm-metadata="[{&quot;_&quot;:&quot;properties.teaserText&quot;}]">
+                                    <div class="cm-teaser-overlay__text cm-richtext"
+                                        data-cm-metadata="[{&quot;_&quot;:&quot;properties.teaserText&quot;},{&quot;_&quot;:&quot;properties.localSettings&quot;}]"
+                                        style="">
+                                        <p class="p--lineheight--150 align--center" style="line-height:150%;"><span
+                                                style="color:#000000;"><span style="font-size:11pt;"><span
+                                                        class="font--azo-sans-regular">Breathe new life into your
+                                                        wardrobe with the latest collection from Marvin Humes. From
+                                                        elevated essentials for spring and beyond, discover everything
+                                                        from smart-casual staples to laid-back
+                                                        styles.</span></span></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397338] asTeaser[text&#8211;banner] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTeaser[text&#8211;banner].ftl] took 2 ms -->
+                </div>
+            </div>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397340] asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asPlacement.ftl] took 75 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397340] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 75 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asTeaser[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asPlacement[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[button&#8211;list].ftl] -->
+            <div id="buttonlist3" class="button-list-module row " style="">
+                <div class="" style=" ">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asLogo[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asLogo.ftl] -->
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asLogo[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asLogo.ftl] took 0 ms -->
+                    <div class="button-list-title" style="margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                    </div>
+                    <div class="button-list-container">
+                        <div class="button-list-wrap">
+                            <div class="button-list-con">
+                                <div class="button-list-button-wrap">
+                                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397366] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] -->
+                                    <a data-module="button-list-module" data-block="" title="Shop the Marvin Collection"
+                                        class="hp-btn-invert msite-cta-brands cta-top-margin40"
+                                        href="/shop/promotion-marvincollection-0">
+                                        Shop the Marvin Collection
+                                    </a>
+                                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397366] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] took 1 ms -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asPlacement[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[button&#8211;list].ftl] took 60 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asTeaser[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 60 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397326] asTeaser[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397326] asPlacement[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[carousel].ftl] -->
+            <div class="row row-margin-20 hp-slideshow-wrapper hp-slideshow-wrapper-mobile cm-container cm-container--carousel "
+                data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397326&quot;}},{&quot;_&quot;:&quot;properties.items&quot;}]">
+                <div class="" style=" ">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397326] asCarousel[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asCarousel.ftl] -->
+                    <div id="carousel5" class="cm-carousel carousel slide" data-ride="carousel"
+                        data-aspect-ratio-width="4" data-aspect-ratio-height="5"
+                        data-cm-carousel="{&quot;interval&quot;:&quot;5000&quot;}"
+                        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397326&quot;}},{&quot;_&quot;:&quot;properties.items&quot;}]">
+                        <div class="cm-carousel-inner carousel-inner" role="listbox"
+                            data-cm-metadata="[{&quot;_&quot;:&quot;properties.items&quot;}]">
+                            <div class="item active" id="carousel5_slide_0">
+                                <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397324] hero FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.hero.ftl] -->
+                                <div class="hp-tile-slideshow cm-teaser_hero_pos"
+                                    data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397324&quot;}}]">
+                                    <div style="height: 100%; width: 100%;">
+                                        <a href="/g642067s1/a45398#a45398">
+                                            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397376] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] -->
+                                            <div class="portrait_ratio4x5-box "
+                                                data-cm-metadata="[{&quot;_&quot;:&quot;properties.pictures&quot;},{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397376&quot;}}]">
+                                                <img class="hp-hero_slider__variable-picture cm-image" alt="MB_01"
+                                                    title="Knitted Polo Shirt"
+                                                    src="/nxtcms/blueprint/servlet/resource/blob/4397376/79e5a88bb27f5c1944dd80c8fb2d6cfc/mb-01-data.png"
+                                                    data-cm-metadata="[{&quot;_&quot;:&quot;properties.data&quot;}]">
+                                            </div>
+                                            <!-- END com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397376] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] took 1 ms -->
+                                        </a>
+                                        <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397324] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] -->
+                                        <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397324] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] took 0 ms -->
+                                    </div>
+                                </div>
+                                <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397324] hero FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.hero.ftl] took 78 ms -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397326] asCarousel[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asCarousel.ftl] took 79 ms -->
+                    <div class="hp-tablet-buttonlist-wrapper">
+                        <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397326] asButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asButtonList.ftl] -->
+                        <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397326] asButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asButtonList.ftl] took 0 ms -->
+                    </div>
+                    <div class="hp-mobile-buttonlist-wrapper">
+                        <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397326] asMobileButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asMobileButtonList.ftl] -->
+                        <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397326] asMobileButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asMobileButtonList.ftl] took 0 ms -->
+                    </div>
+                </div>
+            </div>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397326] asPlacement[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[carousel].ftl] took 101 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397326] asTeaser[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 101 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397344] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397344] asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asPlacement.ftl] -->
+            <div class="">
+                <div class="">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397342] asTeaser[text&#8211;banner] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTeaser[text&#8211;banner].ftl] -->
+                    <div id="module2-cinim6pfqkredd3dn92q77gak"
+                        class="row text-banner text-banner--advanced-layout row-margin-20"
+                        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397342&quot;}}]">
+                        <div class="col-sm-12 text-banner__content">
+                            <div class="text-banner__text-box msite-text-on-image">
+                                <div class="cm-richtext"
+                                    data-cm-metadata="[{&quot;_&quot;:&quot;properties.teaserText&quot;}]">
+                                    <div class="cm-teaser-overlay__text cm-richtext"
+                                        data-cm-metadata="[{&quot;_&quot;:&quot;properties.teaserText&quot;},{&quot;_&quot;:&quot;properties.localSettings&quot;}]"
+                                        style="">
+                                        <p class="align--center p--lineheight--150" style="line-height:150%;"><span
+                                                style="font-size:11pt;"><span style="color:#000000;">Explore fresh looks
+                                                    for those days in the office and those weekend escapades and turn up
+                                                    for any occasion in a well-chosen, vibrant polo shirt.</span></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397342] asTeaser[text&#8211;banner] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTeaser[text&#8211;banner].ftl] took 1 ms -->
+                </div>
+            </div>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397344] asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asPlacement.ftl] took 18 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397344] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 18 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397364] asTeaser[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397364] asPlacement[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[button&#8211;list].ftl] -->
+            <div id="buttonlist6" class="button-list-module row " style="">
+                <div class="" style=" ">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397364] asLogo[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asLogo.ftl] -->
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397364] asLogo[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asLogo.ftl] took 0 ms -->
+                    <div class="button-list-title" style="margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                    </div>
+                    <div class="button-list-container">
+                        <div class="button-list-wrap">
+                            <div class="button-list-con">
+                                <div class="button-list-button-wrap">
+                                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397362] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] -->
+                                    <a data-module="button-list-module" data-block="" title="Shop Polo Shirts"
+                                        class="hp-btn-invert msite-cta-brands cta-top-margin40"
+                                        href="/shop/gender-men-productaffiliation-tops/0-editpage-category-poloshirts">
+                                        Shop Polo Shirts
+                                    </a>
+                                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397362] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] took 1 ms -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397364] asPlacement[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[button&#8211;list].ftl] took 25 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397364] asTeaser[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 25 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397332] asTeaser[2&#8211;category&#8211;container&#8211;5x7&#8211;edits] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397332] asPlacement[2&#8211;category&#8211;container&#8211;5x7&#8211;edits] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[2&#8211;category&#8211;container&#8211;5x7&#8211;edits].ftl] -->
+            <div id="module7" class="row row-margin-20 "
+                data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397332&quot;}},{&quot;_&quot;:&quot;properties.items&quot;}]">
+                <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397332] asTitle[2&#8211;category&#8211;container&#8211;5x7&#8211;edits] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTitle.ftl] -->
+                <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397332] asTitle[2&#8211;category&#8211;container&#8211;5x7&#8211;edits] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTitle.ftl] took 1 ms -->
+                <div class="hp-5x7-edits-wrapper-tablet">
+                    <div class="hp-trim-sides-2x2-tiles two-teaser-flex nx-with-video">
+                        <div id="module7_tablet_item_0" class="columnwrapper" style="width:50% ">
+                            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397328] asTile FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTile.ftl] -->
+                            <div class=" gutter-bt-teaser">
+                                <a data-module="hp-tile-portrait-5x7" data-block="" href="/style/st870254/t27548#t27548"
+                                    class="hp-hover-image-wrapper" title="Stripe Crew Jumper">
+                                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397378] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] -->
+                                    <div class="c-banner-tile__img img-responsive portrait_ratio4x5-box "
+                                        data-cm-metadata="[{&quot;_&quot;:&quot;properties.pictures&quot;},{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397378&quot;}}]">
+                                        <img class="hp-tile-slider__img cm-image cm-media--responsive"
+                                            data-cm-responsive-media="[{&quot;name&quot;:&quot;portrait_ratio4x5&quot;,&quot;ratioWidth&quot;:4,&quot;ratioHeight&quot;:5,&quot;linksForWidth&quot;:{&quot;200&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397378/portrait_ratio4x5/200/250/33491a2f9917f1ad8b58dfab9f4a849e/6C73EE38CB7D90C700D9702A28C49A86/mb-02.png&quot;,&quot;320&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397378/portrait_ratio4x5/320/400/33491a2f9917f1ad8b58dfab9f4a849e/CFA7053121CF3FE8E04F8215083C7BEE/mb-02.png&quot;,&quot;560&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397378/portrait_ratio4x5/560/700/33491a2f9917f1ad8b58dfab9f4a849e/D93090F882AA7F1A94C143D21FFC8EB6/mb-02.png&quot;,&quot;800&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397378/portrait_ratio4x5/800/1000/33491a2f9917f1ad8b58dfab9f4a849e/1FF1DCB06DBABE6044BCA6C371CB86F0/mb-02.png&quot;}}]"
+                                            alt="MB_02" title="Stripe Crew Jumper" src=""
+                                            data-cm-metadata="[{&quot;_&quot;:&quot;properties.data&quot;}]">
+                                    </div>
+                                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397378] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] took 21 ms -->
+                                </a>
+                                <div class="hp-teaser-wrapper">
+                                </div>
+                                <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397328] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] -->
+                                <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397328] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] took 0 ms -->
+                            </div>
+                            <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397328] asTile FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTile.ftl] took 39 ms -->
+                        </div>
+                        <div id="module7_tablet_item_1" class="columnwrapper" style=" width:50%">
+                            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397330] asTile FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTile.ftl] -->
+                            <div class=" gutter-bt-teaser">
+                                <a data-module="hp-tile-portrait-5x7" data-block="" href="/style/st870254/t27548#t27548"
+                                    class="hp-hover-image-wrapper" title="Stripe Crew Jumper">
+                                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397380] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] -->
+                                    <div class="c-banner-tile__img img-responsive portrait_ratio4x5-box "
+                                        data-cm-metadata="[{&quot;_&quot;:&quot;properties.pictures&quot;},{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397380&quot;}}]">
+                                        <img class="hp-tile-slider__img cm-image cm-media--responsive"
+                                            data-cm-responsive-media="[{&quot;name&quot;:&quot;portrait_ratio4x5&quot;,&quot;ratioWidth&quot;:4,&quot;ratioHeight&quot;:5,&quot;linksForWidth&quot;:{&quot;200&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397380/portrait_ratio4x5/200/250/e396fc51688b80c8aac698602fcdd0cb/41F0A3694499D5FADEA85FE0AAD9AFEC/mb-03.png&quot;,&quot;320&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397380/portrait_ratio4x5/320/400/e396fc51688b80c8aac698602fcdd0cb/B803FC36193B6A2934CC705A8B8CE420/mb-03.png&quot;,&quot;560&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397380/portrait_ratio4x5/560/700/e396fc51688b80c8aac698602fcdd0cb/47C29810F8E19AD7E68E3B585C877C14/mb-03.png&quot;,&quot;800&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397380/portrait_ratio4x5/800/1000/e396fc51688b80c8aac698602fcdd0cb/927966EC02DDCDADC37759C4469A72FC/mb-03.png&quot;}}]"
+                                            alt="MB_03" title="Stripe Crew Jumper" src=""
+                                            data-cm-metadata="[{&quot;_&quot;:&quot;properties.data&quot;}]">
+                                    </div>
+                                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397380] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] took 18 ms -->
+                                </a>
+                                <div class="hp-teaser-wrapper">
+                                </div>
+                                <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397330] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] -->
+                                <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397330] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] took 1 ms -->
+                            </div>
+                            <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397330] asTile FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTile.ftl] took 44 ms -->
+                        </div>
+                    </div>
+                </div>
+                <div class="hp-tablet-buttonlist-wrapper">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397332] asButtonListForNewHomePage[2&#8211;category&#8211;container&#8211;5x7&#8211;edits] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asButtonListForNewHomePage.ftl] -->
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397332] asButtonListForNewHomePage[2&#8211;category&#8211;container&#8211;5x7&#8211;edits] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asButtonListForNewHomePage.ftl] took 0 ms -->
+                </div>
+                <div class="hp-5x7-edits-wrapper-mobile" style="">
+                    <div class="col-xs-12">
+                        <div id="module7_mobile_item_0" class="category_5x7_edits_0">
+                            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397328] asTile FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTile.ftl] -->
+                            <div class="col-xs-12 gutter-bt-teaser">
+                                <a data-module="hp-tile-portrait-5x7" data-block="" href="/style/st870254/t27548#t27548"
+                                    class="hp-hover-image-wrapper" title="Stripe Crew Jumper">
+                                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397378] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] -->
+                                    <div class="c-banner-tile__img img-responsive portrait_ratio4x5-box "
+                                        data-cm-metadata="[{&quot;_&quot;:&quot;properties.pictures&quot;},{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397378&quot;}}]">
+                                        <img class="hp-tile-slider__img cm-image cm-media--responsive"
+                                            data-cm-responsive-media="[{&quot;name&quot;:&quot;portrait_ratio4x5&quot;,&quot;ratioWidth&quot;:4,&quot;ratioHeight&quot;:5,&quot;linksForWidth&quot;:{&quot;200&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397378/portrait_ratio4x5/200/250/33491a2f9917f1ad8b58dfab9f4a849e/6C73EE38CB7D90C700D9702A28C49A86/mb-02.png&quot;,&quot;320&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397378/portrait_ratio4x5/320/400/33491a2f9917f1ad8b58dfab9f4a849e/CFA7053121CF3FE8E04F8215083C7BEE/mb-02.png&quot;,&quot;560&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397378/portrait_ratio4x5/560/700/33491a2f9917f1ad8b58dfab9f4a849e/D93090F882AA7F1A94C143D21FFC8EB6/mb-02.png&quot;,&quot;800&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397378/portrait_ratio4x5/800/1000/33491a2f9917f1ad8b58dfab9f4a849e/1FF1DCB06DBABE6044BCA6C371CB86F0/mb-02.png&quot;}}]"
+                                            alt="MB_02" title="Stripe Crew Jumper"
+                                            src="/nxtcms/blueprint/servlet/resource/image/4397378/portrait_ratio4x5/320/400/33491a2f9917f1ad8b58dfab9f4a849e/CFA7053121CF3FE8E04F8215083C7BEE/mb-02.png"
+                                            data-cm-metadata="[{&quot;_&quot;:&quot;properties.data&quot;}]">
+                                    </div>
+                                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397378] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] took 4 ms -->
+                                </a>
+                                <div class="hp-teaser-wrapper">
+                                </div>
+                                <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397328] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] -->
+                                <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397328] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] took 1 ms -->
+                            </div>
+                            <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397328] asTile FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTile.ftl] took 6 ms -->
+                        </div>
+                        <div id="module7_mobile_item_1" class="category_5x7_edits_1">
+                            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397330] asTile FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTile.ftl] -->
+                            <div class="col-xs-12 gutter-bt-teaser">
+                                <a data-module="hp-tile-portrait-5x7" data-block="" href="/style/st870254/t27548#t27548"
+                                    class="hp-hover-image-wrapper" title="Stripe Crew Jumper">
+                                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397380] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] -->
+                                    <div class="c-banner-tile__img img-responsive portrait_ratio4x5-box "
+                                        data-cm-metadata="[{&quot;_&quot;:&quot;properties.pictures&quot;},{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397380&quot;}}]">
+                                        <img class="hp-tile-slider__img cm-image cm-media--responsive"
+                                            data-cm-responsive-media="[{&quot;name&quot;:&quot;portrait_ratio4x5&quot;,&quot;ratioWidth&quot;:4,&quot;ratioHeight&quot;:5,&quot;linksForWidth&quot;:{&quot;200&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397380/portrait_ratio4x5/200/250/e396fc51688b80c8aac698602fcdd0cb/41F0A3694499D5FADEA85FE0AAD9AFEC/mb-03.png&quot;,&quot;320&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397380/portrait_ratio4x5/320/400/e396fc51688b80c8aac698602fcdd0cb/B803FC36193B6A2934CC705A8B8CE420/mb-03.png&quot;,&quot;560&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397380/portrait_ratio4x5/560/700/e396fc51688b80c8aac698602fcdd0cb/47C29810F8E19AD7E68E3B585C877C14/mb-03.png&quot;,&quot;800&quot;:&quot;/nxtcms/blueprint/servlet/resource/image/4397380/portrait_ratio4x5/800/1000/e396fc51688b80c8aac698602fcdd0cb/927966EC02DDCDADC37759C4469A72FC/mb-03.png&quot;}}]"
+                                            alt="MB_03" title="Stripe Crew Jumper"
+                                            src="/nxtcms/blueprint/servlet/resource/image/4397380/portrait_ratio4x5/320/400/e396fc51688b80c8aac698602fcdd0cb/B803FC36193B6A2934CC705A8B8CE420/mb-03.png"
+                                            data-cm-metadata="[{&quot;_&quot;:&quot;properties.data&quot;}]">
+                                    </div>
+                                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397380] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] took 3 ms -->
+                                </a>
+                                <div class="hp-teaser-wrapper">
+                                </div>
+                                <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397330] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] -->
+                                <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397330] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] took 1 ms -->
+                            </div>
+                            <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397330] asTile FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTile.ftl] took 5 ms -->
+                        </div>
+                    </div>
+                </div>
+                <div class="hp-mobile-buttonlist-wrapper">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397332] asButtonListForNewHomePage[2&#8211;category&#8211;container&#8211;5x7&#8211;edits] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asButtonListForNewHomePage.ftl] -->
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397332] asButtonListForNewHomePage[2&#8211;category&#8211;container&#8211;5x7&#8211;edits] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asButtonListForNewHomePage.ftl] took 0 ms -->
+                </div>
+            </div>
+            <style>
+                /* For teasers */
+                @media only screen and (max-width: 767px) {
+                    #module7 .hp-5x7-edits-wrapper-mobile .category_5x7_edits_0 .gutter-bt-teaser {
+                        padding-bottom: 8px;
+                    }
+
+                    #module7 .hp-5x7-edits-wrapper-mobile .category_5x7_edits_1 .gutter-bt-teaser {
+                        padding-top: 8px;
+                    }
+                }
+
+                /* for collection */
+                @media only screen and (max-width:767px) {
+                    #module7 {
+                        margin: ;
+                        padding: ;
+                    }
+                }
+
+                @media only screen and (min-width:768px) {
+                    #module7 {
+                        margin: ;
+                        padding: ;
+                    }
+                }
+            </style>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397332] asPlacement[2&#8211;category&#8211;container&#8211;5x7&#8211;edits] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[2&#8211;category&#8211;container&#8211;5x7&#8211;edits].ftl] took 128 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397332] asTeaser[2&#8211;category&#8211;container&#8211;5x7&#8211;edits] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 129 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397348] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397348] asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asPlacement.ftl] -->
+            <div class="">
+                <div class="">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397346] asTeaser[text&#8211;banner] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTeaser[text&#8211;banner].ftl] -->
+                    <div id="module4-77nbbwmxlbxrfx8ou8seg7ysw"
+                        class="row text-banner text-banner--advanced-layout row-margin-20"
+                        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397346&quot;}}]">
+                        <div class="col-sm-12 text-banner__content">
+                            <div class="text-banner__text-box msite-text-on-image">
+                                <div class="cm-richtext"
+                                    data-cm-metadata="[{&quot;_&quot;:&quot;properties.teaserText&quot;}]">
+                                    <div class="cm-teaser-overlay__text cm-richtext"
+                                        data-cm-metadata="[{&quot;_&quot;:&quot;properties.teaserText&quot;},{&quot;_&quot;:&quot;properties.localSettings&quot;}]"
+                                        style="">
+                                        <p class="align--center p--lineheight--150" style="line-height:150%;"><span
+                                                class="font--azo-sans-regular"><span style="color:#000000;"><span
+                                                        style="font-size:11pt;">Think lighter shades and intricate
+                                                        prints and brighten up your transeasonal wardrobe with our
+                                                        selection of long-sleeve jumpers and knits.</span></span></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397346] asTeaser[text&#8211;banner] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTeaser[text&#8211;banner].ftl] took 1 ms -->
+                </div>
+            </div>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397348] asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asPlacement.ftl] took 153 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397348] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 153 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397360] asTeaser[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397360] asPlacement[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[button&#8211;list].ftl] -->
+            <div id="buttonlist8" class="button-list-module row " style="">
+                <div class="" style=" ">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397360] asLogo[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asLogo.ftl] -->
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397360] asLogo[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asLogo.ftl] took 0 ms -->
+                    <div class="button-list-title" style="margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                    </div>
+                    <div class="button-list-container">
+                        <div class="button-list-wrap">
+                            <div class="button-list-con">
+                                <div class="button-list-button-wrap">
+                                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397358] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] -->
+                                    <a data-module="button-list-module" data-block="" title="Shop Jumpers"
+                                        class="hp-btn-invert msite-cta-brands cta-top-margin40"
+                                        href="/shop/gender-men-productaffiliation-knitwear/0-editpage">
+                                        Shop Jumpers
+                                    </a>
+                                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397358] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] took 1 ms -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397360] asPlacement[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[button&#8211;list].ftl] took 36 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397360] asTeaser[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 37 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397336] asTeaser[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397336] asPlacement[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[carousel].ftl] -->
+            <div class="row row-margin-20 hp-slideshow-wrapper hp-slideshow-wrapper-mobile cm-container cm-container--carousel "
+                data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397336&quot;}},{&quot;_&quot;:&quot;properties.items&quot;}]">
+                <div class="" style=" ">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397336] asCarousel[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asCarousel.ftl] -->
+                    <div id="carousel10" class="cm-carousel carousel slide" data-ride="carousel"
+                        data-aspect-ratio-width="4" data-aspect-ratio-height="5"
+                        data-cm-carousel="{&quot;interval&quot;:&quot;5000&quot;}"
+                        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397336&quot;}},{&quot;_&quot;:&quot;properties.items&quot;}]">
+                        <div class="cm-carousel-inner carousel-inner" role="listbox"
+                            data-cm-metadata="[{&quot;_&quot;:&quot;properties.items&quot;}]">
+                            <div class="item active" id="carousel10_slide_0">
+                                <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397334] hero FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.hero.ftl] -->
+                                <div class="hp-tile-slideshow cm-teaser_hero_pos"
+                                    data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397334&quot;}}]">
+                                    <div style="height: 100%; width: 100%;">
+                                        <a href="/style/st934942/a45446#a45446">
+                                            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397382] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] -->
+                                            <div class="portrait_ratio4x5-box "
+                                                data-cm-metadata="[{&quot;_&quot;:&quot;properties.pictures&quot;},{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397382&quot;}}]">
+                                                <img class="hp-hero_slider__variable-picture cm-image" alt="MB_04"
+                                                    title="Crew Sweatshirt"
+                                                    src="/nxtcms/blueprint/servlet/resource/blob/4397382/d5ae17cec76d965fd73feef9acfa0d2d/mb-04-data.png"
+                                                    data-cm-metadata="[{&quot;_&quot;:&quot;properties.data&quot;}]">
+                                            </div>
+                                            <!-- END com.coremedia.blueprint.cae.contentbeans.CMPictureImpl[id=4397382] null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMPicture.ftl] took 2 ms -->
+                                        </a>
+                                        <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397334] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] -->
+                                        <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397334] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] took 0 ms -->
+                                    </div>
+                                </div>
+                                <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397334] hero FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.hero.ftl] took 17 ms -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397336] asCarousel[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asCarousel.ftl] took 18 ms -->
+                    <div class="hp-tablet-buttonlist-wrapper">
+                        <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397336] asButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asButtonList.ftl] -->
+                        <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397336] asButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asButtonList.ftl] took 0 ms -->
+                    </div>
+                    <div class="hp-mobile-buttonlist-wrapper">
+                        <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397336] asMobileButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asMobileButtonList.ftl] -->
+                        <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397336] asMobileButtonList[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asMobileButtonList.ftl] took 0 ms -->
+                    </div>
+                </div>
+            </div>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397336] asPlacement[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[carousel].ftl] took 42 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397336] asTeaser[carousel] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 42 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397352] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397352] asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asPlacement.ftl] -->
+            <div class="">
+                <div class="">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397350] asTeaser[text&#8211;banner] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTeaser[text&#8211;banner].ftl] -->
+                    <div id="module5-111s39t13o3mswp0kn6f2p7zw"
+                        class="row text-banner text-banner--advanced-layout row-margin-20"
+                        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4397350&quot;}}]">
+                        <div class="col-sm-12 text-banner__content">
+                            <div class="text-banner__text-box msite-text-on-image">
+                                <div class="cm-richtext"
+                                    data-cm-metadata="[{&quot;_&quot;:&quot;properties.teaserText&quot;}]">
+                                    <div class="cm-teaser-overlay__text cm-richtext"
+                                        data-cm-metadata="[{&quot;_&quot;:&quot;properties.teaserText&quot;},{&quot;_&quot;:&quot;properties.localSettings&quot;}]"
+                                        style="">
+                                        <p class="p--lineheight--150 align--center" style="line-height:150%;"><span
+                                                class="font--azo-sans-regular"><span style="color:#000000;"><span
+                                                        style="font-size:11pt;">Warm-weather comfort is a given thanks
+                                                        to Marvin's collection of off-duty looks. Discover easy-wear
+                                                        layers for now and later from effortlessly-cool co-ords to
+                                                        classic, wear-me-now hoodies.</span></span></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397350] asTeaser[text&#8211;banner] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable.asTeaser[text&#8211;banner].ftl] took 1 ms -->
+                </div>
+            </div>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397352] asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asPlacement.ftl] took 17 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397352] asTeaser FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 17 ms -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asTeaser[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] -->
+            <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asPlacement[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[button&#8211;list].ftl] -->
+            <div id="buttonlist11" class="button-list-module row " style="">
+                <div class="" style=" ">
+                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asLogo[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asLogo.ftl] -->
+                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asLogo[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asLogo.ftl] took 0 ms -->
+                    <div class="button-list-title" style="margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                    </div>
+                    <div class="button-list-container">
+                        <div class="button-list-wrap">
+                            <div class="button-list-con">
+                                <div class="button-list-button-wrap">
+                                    <!-- BEGIN com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397366] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] -->
+                                    <a data-module="button-list-module" data-block="" title="Shop the Marvin Collection"
+                                        class="hp-btn-invert msite-cta-brands cta-top-margin40"
+                                        href="/shop/promotion-marvincollection-0">
+                                        Shop the Marvin Collection
+                                    </a>
+                                    <!-- END com.coremedia.blueprint.cae.contentbeans.CMTeaserImpl[id=4397366] _callToAction FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMTeasable._callToAction.ftl] took 1 ms -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asPlacement[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement[button&#8211;list].ftl] took 3 ms -->
+            <!-- END com.coremedia.blueprint.cae.contentbeans.CMCollectionImpl[id=4397368] asTeaser[button&#8211;list] FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.contentbeans/CMCollection.asTeaser.ftl] took 3 ms -->
+            <!-- END com.coremedia.blueprint.cae.layout.ContentBeanBackedPageGridPlacement@b360ebc8 asPlacement FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/Container.asPlacement.ftl] took 670 ms -->
+        </div>
+        <!-- END com.coremedia.blueprint.cae.layout.ContentBeanBackedPageGridPlacement@b360ebc8 null FreemarkerView[template=/jar:id:contentproperty:/Themes/next&#8211;mobile/templates/next&#8211;mobile&#8211;templates.jar/archive!/META&#8211;INF/resources/WEB&#8211;INF/templates/next&#8211;mobile/com.coremedia.blueprint.common.layout/PageGridPlacement.ftl] took 670 ms -->
+    </div>
+    <div style="visibility: hidden;"
+        data-cm-metadata="[{&quot;cm_responsiveDevices&quot;:{&quot;mobile_portrait&quot;:{&quot;width&quot;:375,&quot;height&quot;:667,&quot;order&quot;:1,&quot;isDefault&quot;:true},&quot;mobile_landscape&quot;:{&quot;width&quot;:667,&quot;height&quot;:375,&quot;order&quot;:2},&quot;tablet_portrait&quot;:{&quot;width&quot;:768,&quot;height&quot;:1024,&quot;order&quot;:3},&quot;tablet_landscape&quot;:{&quot;width&quot;:1024,&quot;height&quot;:768,&quot;order&quot;:5}},&quot;cm_preferredWidth&quot;:1280}]">
+    </div>
+    <script src="/nxtcms/blueprint/servlet/resource/themes/next/js/lazysizes.min-4384640-1.js"
+        data-cm-metadata="[{&quot;_&quot;:{&quot;$Ref&quot;:&quot;content/4384640&quot;}}]"></script>
+    <!-- BEGIN ViewHookEvent{, bean=com.coremedia.blueprint.cae.contentbeans.PageImpl$$[navigation=com.coremedia.livecontext.contentbeans.CMExternalPageImpl[id=2781436], content=com.coremedia.livecontext.contentbeans.CMExternalPageImpl[id=2781436]], id=end, parameters={}} null com.coremedia.objectserver.view.events.ViewHookEventView@615dbdd0 -->
+    <!-- END ViewHookEvent{, bean=com.coremedia.blueprint.cae.contentbeans.PageImpl$$[navigation=com.coremedia.livecontext.contentbeans.CMExternalPageImpl[id=2781436], content=com.coremedia.livecontext.contentbeans.CMExternalPageImpl[id=2781436]], id=end, parameters={}} null com.coremedia.objectserver.view.events.ViewHookEventView@615dbdd0 took 0 ms -->
+
+
+
+
+</body>
+
+</html>
